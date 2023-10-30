@@ -1,0 +1,98 @@
+header {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    border-radius: 300px;
+    column-span: all;
+}
+
+
+body {
+    background: var(--Blue--Med, #a7f4f3);
+    COLOR: rgb(0, 0, 0);
+}
+
+
+.blue-bkg {
+    background: #6ec4d9
+}
+
+/* typography */
+h1 {
+    color: var(Black);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 32px
+}
+
+h2 {
+    color: var(Black);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 32px
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.column {
+    flex: 1;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.decorated-text {
+    font-size: 42px;
+}
+
+.underline-red {
+    text-decoration: underline;
+    color: red;
+}
+
+.strikethrough-green {
+    text-decoration: line-through;
+    color: green;
+}
+
+.dotted-purple {
+    text-decoration: underline dotted;
+    color: purple;
+}
